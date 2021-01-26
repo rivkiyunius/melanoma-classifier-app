@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageProfileDokter"
+            android:src="@drawable/ic_person"
+            android:layout_width="70dp"
+            android:layout_height="70dp"/>
+        <TextView
+            android:id="@+id/textViewNamaDokter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Nama Dokter"
+            android:layout_toRightOf="@id/imageProfileDokter"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alamat Dokter"
+            android:layout_below="@id/textViewNamaDokter"
+            android:layout_toRightOf="@id/imageProfileDokter"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="16dp"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "483604529412",
+    "firebase_url": "https://melanoma-app-7e892.firebaseio.com",
+    "project_id": "melanoma-app-7e892",
+    "storage_bucket": "melanoma-app-7e892.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483604529412:android:47c08bd32b3771064b9051",
+        "android_client_info": {
+          "package_name": "com.example.melanomaclassifier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "483604529412-fi1nriulste0vh6udvqkjh4tk86iardn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.melanomaclassifier",
+            "certificate_hash": "d0f8f36d170a6f030a276fe218f84fa2623b50c3"
+          }
+        },
+        {
+          "client_id": "483604529412-t6skfmujnb9irig3akr4aeon3enpv1ev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQ8V__m_MLQcWFtc_Tq5eOR13kj08nC3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "483604529412-t6skfmujnb9irig3akr4aeon3enpv1ev.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

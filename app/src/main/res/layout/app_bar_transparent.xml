@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent"
+    app:layout_collapseMode="pin"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    android:layout_height="?android:attr/actionBarSize">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/img_logout"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:tint="@android:color/white"
+            android:layout_marginRight="16dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_logout"/>
+
+        <ImageView
+            android:id="@+id/img_edit"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:src="@drawable/ic_edit_regular"
+            android:layout_centerVertical="true"
+            android:tint="@color/white"
+            android:layout_margin="16dp"
+            android:layout_toLeftOf="@id/img_logout"/>
+    </RelativeLayout>
+
+</androidx.appcompat.widget.Toolbar>
